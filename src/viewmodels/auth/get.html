@@ -1,0 +1,25 @@
+<template>
+  <section class="au-animate">
+
+
+      <label for="model">Get Model:</label>
+      <input type = "text" value.bind = "model" placeholder = "Model">
+      <button id="model" type="button"  click.delegate="getAll()" class="btn btn-primary">"Get All"</button>
+
+
+
+      <label for="role">Add Role:</label>
+      <input type = "text" value.bind = "role" placeholder = "Role" id="role">
+      <button type="button"  click.delegate="addRole()" class="btn btn-primary">"Add Role"</button>
+<br>
+
+
+    <input type = "text" value.bind = "roleid" placeholder = "Role" id="roleid">
+    <button type="button"  click.delegate="roleById()" class="btn btn-primary">"Role By ID"</button>
+
+    <button type="button"  click.delegate="getAllRoles()" class="btn btn-primary">"Get All Roles"</button>
+    <button type="button"  click.delegate="getSuppliers()" class="btn btn-primary">"Get Suppliers"</button>
+
+
+  </section>
+</template>

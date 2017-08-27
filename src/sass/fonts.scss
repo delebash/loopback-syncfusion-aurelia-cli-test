@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'),local('Roboto-Light'),url(fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'),local('Roboto-Regular'),url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'),local('Roboto-Medium'),url(fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'),local('Roboto-Bold'),url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: Roboto-ThinItalic;
+  font-weight: 300;
+  src: local('Roboto ThinItalic'),local('Roboto-ThinItalic'),url(fonts/Roboto-ThinItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: AguafinaScript-Regular;
+  font-weight: 300;
+  src: local('AguafinaScript Regular'),local('AguafinaScript-Regular'),url(fonts/AguafinaScript-Regular.ttf) format('truetype');
+}
